@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DG Photography</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">DG Photography</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon nav-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#portfolioContent">Porfolio</a>
+              <a class="nav-link" href="#testimonialsContent">Testimonials</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-cover">
+              <img
+                src="./Images/hero-img1.webp"
+                class="d-block w-100 bg-img"
+                alt="hero-img"
+              />
+            </div>
+            <div class="carousel-item bg-cover">
+              <img
+                src="./Images/hero-img2.jpg"
+                class="d-block w-100 bg-img"
+                alt="hero-img"
+              />
+            </div>
+            <div class="carousel-item bg-cover">
+              <img
+                src="./Images/hero-img3.jpg"
+                class="d-block w-100 bg-img"
+                alt="hero-img"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="hero-text">
+          <h1>Bringing out the best</h1>
+          <p>
+            A great photo is your chance to build a lasting impression and rush
+            you ahead of the competition.
+          </p>
+        </div>
+      </section>
+    </header>
+    <!-- Porfolio Section -->
+    <section class="portfolio-section py-4" id="portfolioContent">
+      <h2 class="text-center fw-bold mb-3">Portfolio</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img1.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img2.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img3.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img4.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img5.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 mb-3">
+            <div class="portfolio-img-wrap">
+              <img
+                src="./Images/portfolio-img6.jpg"
+                class="w-100"
+                alt="portfolio-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-4" id="testimonialsContent">
+      <h2 class="text-center fw-bold mb-4">Testimonials Cards</h2>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-12 col-lg-6 mb-3 d-flex flex-column justify-content-center"
+          >
+            <div class="testimonials-content">
+              <h4 class="mb-4">Testimonials</h4>
+              <p>
+                This is a great space to write a long text about your company
+                and your services. You can use this space to go into a little
+                more detail about your company. Talk about your team and what
+                services you provide. Tell your visitors the story of how you
+                came up with the idea for your business and what makes you
+                different from your competitors. Make your company stand out and
+                show your visitors who you are.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <div>
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active bg-testimonial">
+                    <img
+                      src="./Images/testimonials-img.jpg"
+                      class="d-block w-100 bg-img"
+                      alt="testimonials-img"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="./Images/testimonials-img2.jpg"
+                      class="d-block w-100 bg-img"
+                      alt="testimonials-img"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <!-- <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span> -->
+                  <i class="fa-solid fa-arrow-left arrow-icon"></i>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <!-- <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span> -->
+
+                  <i class="fa-solid fa-arrow-right arrow-icon"></i>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Section -->
+    <section class="page-section py-4">
+      <div class="container">
+        <div class="page-content text-center">
+          <h2 class="text-center fw-bold mb-4">Best Photography Website</h2>
+          <p>
+            I'm a paragraph. Click here to add your own text and edit me. It’s
+            easy. Just click “Edit Text” or double click me to add your own
+            content and make changes to the font. Feel free to drag and drop me
+            anywhere you like on your page. I’m a great place for you to tell a
+            story and let your users know a little more about you.​
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Grid Section -->
+    <section class="full-grid-section py-4">
+      <div class="container-fluid">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./Images/img1.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/img2.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/img3.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/img4.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/img5.jpg" alt="image" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./Images/img6.jpg" alt="image" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <section class="footer-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center text-md-start">
+            <h4>Product</h4>
+            <ul class="footer-list">
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Customers</li>
+              <li>Sign up</li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-center text-md-start">
+            <h4>Company</h4>
+            <ul class="footer-list">
+              <li>Blog</li>
+              <li>About</li>
+              <li>Careers</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 text-center text-md-start">
+            <h4>Connect Us</h4>
+            <ul class="footer-list">
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Pinterest</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
